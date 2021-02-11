@@ -16,10 +16,10 @@ In this project we will learn how to create a very simple Web API using `Node.js
 
 Please follow along as the instructor builds the API step by step:
 
-| Not using REST      | Using REST                |
-| ------------------- | --------------------------|
-| `/listAllAdopters`  | GET    /adopters          |
-| `/createAdopter`    | POST   /adopters          |
-| `/updateAdopter`    | PUT    /adopters/:id      |
-| `/deleteAdopter`    | DELETE /adopters/:id      |
-| `/listAdopterDogs`  | GET    /adopters/:id/dogs |
+| Not using REST   | Using REST              |
+| ---------------- | ----------------------- |
+| `/listUsers`     | GET    /users           |
+| `/createUser`    | POST   /users           |
+| `/updateUser`    | PUT    /users/:id       |
+| `/deleteUser`    | DELETE /users/:id       |
+| `/listUserPosts` | GET    /users/:id/posts |
