@@ -2,7 +2,6 @@ const express = require("express")
 const users = require("./users/users-model")
 
 const server = express()
-const port = 4000
 
 server.use(express.json())
 
